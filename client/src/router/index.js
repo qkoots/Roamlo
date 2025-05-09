@@ -26,10 +26,16 @@ const router = createRouter({
       meta: { requireAuth: true }
     },
     {
-      path: '/products',
-      name: 'ProductsPage',
-      component: () => import('../views/ProductsPage.vue'),
-      // meta: { requireAuth: true }
+      path: '/destinations',
+      name: 'DestinationsPage',
+      component: () => import('../views/DestinationsPage.vue'),
+      meta: { requireAuth: true }
+    },
+    {
+      path: '/esim/:destination',
+      name: 'Card',
+      component: () => import('../components/eSIM/Card.vue'),
+      meta: { requireAuth: true }
     },
     {
       path: '/checkout',
