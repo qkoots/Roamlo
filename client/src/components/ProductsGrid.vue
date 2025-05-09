@@ -7,7 +7,7 @@
         <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-dark dark:text-black mb-3 lg:mb-4">
           Where Will You Roam Next?
         </h2>
-        <p class="text-base sm:text-lg lg:text-xl text-body-color dark:text-dark-6">
+        <p class="text-base sm:text-md lg:text-lg text-body-color dark:text-dark-6">
           Pick your destination to discover the perfect data plan.
         </p>
       </div>
