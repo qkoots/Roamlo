@@ -31,6 +31,12 @@ const router = createRouter({
       component: () => import('../views/ProductsPage.vue'),
       // meta: { requireAuth: true }
     },
+    {
+      path: '/checkout',
+      name: 'CheckoutPage',
+      component: () => import('../views/CheckoutPage.vue'),
+      // meta: { requireAuth: true }
+    },
     // {
     //   path: '/:catchAll(.*)',
     //   name: 'not-found',
