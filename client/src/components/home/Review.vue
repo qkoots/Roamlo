@@ -38,7 +38,7 @@
             :key="review.id"
             class="w-full md:w-1/3 flex-shrink-0 pr-4"
           >
-            <div class="bg-white dark:bg-dark-2 rounded-xl border border-[#E9ECF8] dark:border-dark-3 p-6 h-[280px]">
+            <div class="bg-[#F2F2F2] dark:bg-dark-2 rounded-xl border border-[#E9ECF8] dark:border-dark-3 p-6 h-[280px]">
               <div class="flex flex-col h-full">
                 <!-- Rating Stars -->
                 <div class="flex items-center space-x-1 mb-4">

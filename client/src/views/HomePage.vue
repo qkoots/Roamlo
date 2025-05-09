@@ -1,8 +1,9 @@
 <template>
-  <div class="animate__animated animate__zoomIn">
+  <div class="">
     <Hero />
-    <ProductGrid />
-    <WhyRoamlo />
+    <ProductGrid class="bg-[#F2F2F2]" />
+    <HowItWorks />
+    <WhyRoamlo class="bg-[#F2F2F2]" />
     <ReviewsGrid />
     <FAQ />
   </div>
@@ -14,15 +15,17 @@ import ProductGrid from "../components/home/ProductsGrid.vue"
 import FAQ from "../components/home/Faq.vue"
 import ReviewsGrid from "../components/home/Review.vue"
 import WhyRoamlo from "../components/home/Services.vue"
+import HowItWorks from "../components/home/HowItWorks.vue"
 
 export default {
   name: "Home",
   components: {
     Hero,
     ProductGrid,
+    WhyRoamlo,
     FAQ,
     ReviewsGrid,
-    WhyRoamlo
+    HowItWorks
   }
 }
 </script>
