@@ -4,16 +4,15 @@
     <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
       <!-- Left Column: Content -->
       <div class="w-full lg:w-1/2 text-center lg:text-left mt-16">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold text-dark dark:text-black mb-6 leading-tight">
-          Your Passport to
-          <span class="block">Global Data</span>
+        <h1 class="text-3xl md:text-4xl lg:text-5xl/tight text-dark dark:text-black mb-6 ">
+          Your Passport to <br> Global Data
         </h1>
 
-        <h2 class="text-1xl md:text-2xl lg:text-3xl text-dark dark:text-black mb-6 font-medium">
+        <h2 class="text-1xl md:text-2xl lg:text-2xl text-dark dark:text-black mb-6 font-medium">
           Born to Roam. Built to Connect.
         </h2>
 
-        <p class="text-base md:text-lg lg:text-xl text-body-color dark:text-dark-6 mb-8 max-w-2xl lg:max-w-none leading-relaxed">
+        <p class="text-base md:text-lg lg:text-md text-body-color dark:text-dark-6 mb-8 max-w-2xl lg:max-w-none leading-relaxed">
           Enjoy seamless eSIM coverage in 190+ countries—no SIM swaps, no hidden fees, 
           just instant connectivity wherever adventure finds you.
         </p>
@@ -22,7 +21,7 @@
         <div class="relative max-w-xl mx-auto lg:mx-0">
           <input 
             type="search"
-            placeholder="Search for a country..."
+            placeholder="Search for a destiny"
             v-model="searchQuery"
             @keyup.enter="handleSearch"
             class="w-full px-6 py-4 text-lg bg-white dark:bg-dark-2 text-dark dark:text-black border border-[#E9ECF8] dark:border-dark-3 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all duration-300 pl-12"
@@ -60,7 +59,7 @@
       <!-- Right Column: Globe Image -->
       <div class="w-full lg:w-1/2 relative">
         <img 
-          src="/images/globe.svg" 
+          src="" 
           alt=""
           class="w-full h-auto max-w-xl mx-auto lg:max-w-none animate-float"
           aria-hidden="true"

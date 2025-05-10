@@ -1,12 +1,14 @@
 <template>
-  <header class="relative z-10 bg-white dark:bg-dark md:border-b md:border-[#E9ECF8] dark:md:border-dark-3">
+  <header class="relative z-10 dark:bg-dark md:border-b md:border-[#E9ECF8] dark:md:border-dark-3 py-2">
     <div class="container mx-auto">
       <div class="relative -mx-4 flex items-center justify-between">
         <div class="w-60 max-w-full px-4">
-          <a href="/#" class="block w-full py-5">
+          <router-link 
+            to="/" 
+            class="block w-full">
             <!-- Replace with your logo -->
-            <span class="text-xl font-bold">LOGO</span>
-          </a>
+            <span class="text-xl font-bold">ROAMLO</span>
+          </router-link>
         </div>
         <div class="flex w-full items-center justify-between px-4">
           <div>
@@ -34,32 +36,35 @@
               ]"
             >
               <ul class="block space-y-3 lg:flex lg:space-y-0">
-                <li v-for="(item, index) in navLinkItems" :key="index">
-                  <a
-                    :href="item.href"
-                    class="inline-block text-base text-body-color hover:text-primary dark:text-dark-6 lg:ml-12"
+                <li v-for="(item, index) in navLinkItems" 
+                :key="index">
+                  <router-link
+                    :to="item.to"
+                    class="inline-block text-base text-body-color hover:text-primary dark:text-dark-6 lg:ml-10"
                   >
                     {{ item.text }}
-                  </a>
+                  </router-link>
                 </li>
               </ul>
             </nav>
           </div>
-          <div class="hidden justify-end pr-16 sm:flex lg:pr-0">
-            <a
-              href="/#"
-              class="px-7 py-3 text-base text-body-color hover:text-primary dark:text-dark-6"
+          <div
+            v-if="!loggedIn"
+            class="hidden justify-end pr-16 sm:flex lg:pr-0">
+            <router-link
+              to="/signin"
+              class="p-3 text-base text-body-color hover:text-primary dark:text-dark-6"
             >
-              Sign in
-            </a>
-            <a
-              href="/#"
-              class="rounded-md bg-primary px-7 py-3 text-base font-medium text-black hover:bg-primary/90"
+              Sign In
+            </router-link>
+            <router-link
+              to="signup"
+              class="rounded-md bg-primary p-3 text-base font-medium text-black hover:bg-primary/90"
             >
               Sign Up
-            </a>
+            </router-link>
           </div>
-          <div>
+          <div v-else>
             <DropdownAccountButton />
           </div>
         </div>
@@ -77,12 +82,14 @@ export default {
   },
   data() {
     return {
+      loggedIn: false,
       open: false,
       navLinkItems: [
-        { text: 'Home', href: 'javascript:void(0)' },
-        { text: 'Payment', href: 'javascript:void(0)' },
-        { text: 'About', href: 'javascript:void(0)' },
-        { text: 'Blog', href: 'javascript:void(0)' }
+        { text: 'Shop Plans', to: 'javascript:void(0)' },
+        { text: 'What is eSIM', to: 'javascript:void(0)' },
+        { text: 'About Roamlo', to: 'javascript:void(0)' },
+        { text: 'Reviews', to: 'javascript:void(0)' },
+        { text: 'Support Center', to: 'javascript:void(0)' }
       ]
     }
   },

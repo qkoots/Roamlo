@@ -1,15 +1,18 @@
 <template>
   <section class="container mx-auto px-4 py-12 lg:py-10">
     <div class="max-w-6xl mx-auto">
-      <!-- Section Header -->
-      <h2 class="text-3xl md:text-4xl font-bold text-dark dark:text-black mb-12 lg:mb-16">
-        How Roamlo Works?
-      </h2>
 
       <!-- Steps Container -->
       <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+
         <!-- Steps List -->
         <div class="w-full lg:w-1/2 space-y-8">
+
+             <!-- Section Header -->
+          <h2 class="text-3xl md:text-4xl font-bold text-dark dark:text-black mb-12 lg:mb-16">
+            How Roamlo Works?
+          </h2>
+          
           <!-- Step 1 -->
           <div class="flex gap-6 items-start">
             <div class="flex-shrink-0 w-12 h-12 flex items-center justify-center text-white font-bold text-xl bg-[#EC9944] rounded-xl">
@@ -99,6 +102,7 @@ export default {
 </script>
 
 <style scoped>
+
 /* Optional: Add animation for steps on scroll */
 @media (prefers-reduced-motion: no-preference) {
   .flex.gap-6 {
