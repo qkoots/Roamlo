@@ -1,11 +1,11 @@
 <template>
   <div class="py-12 lg:py-20">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 lg:px-52">
       <!-- Header Section -->
       <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between">
         <!-- Text Content -->
         <div class="text-center lg:text-left">
-          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-dark dark:text-black mb-3 lg:mb-4">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl text-dark dark:text-black mb-3 lg:mb-4">
             Where Will You Roam Next?
           </h2>
           <p class="text-base sm:text-md lg:text-lg text-body-color dark:text-dark-6">

@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto px-4 py-12 lg:py-20">
+  <div class="container mx-auto px-4 py-12 lg:px-52 lg:py-40">
     <!-- Hero Content -->
     <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
       <!-- Left Column: Content -->
       <div class="w-full lg:w-1/2 text-center lg:text-left mt-16">
-        <h1 class="text-3xl md:text-4xl lg:text-5xl/tight text-dark dark:text-black mb-6 ">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl/tight text-dark dark:text-black mb-6">
           Your Passport to <br> Global Data
         </h1>
 

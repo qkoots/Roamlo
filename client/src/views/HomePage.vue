@@ -1,11 +1,11 @@
 <template>
   <div class="">
     <Hero />
-    <ProductGrid class="bg-[#F2F2F2]" />
+    <ProductGrid class="bg-[#fafafa]" />
     <HowItWorks />
-    <WhyRoamlo class="bg-[#F2F2F2]" />
+    <WhyRoamlo class="bg-[#fafafa]" />
     <ReviewsGrid />
-    <FAQ />
+    <FAQ class="bg-[#fafafa]" />
   </div>
 </template>
 

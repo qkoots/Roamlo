@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto px-4 py-12 lg:py-10">
+  <section class="container mx-auto px-4 py-12 lg:py-10 lg:px-52">
     <div class="max-w-6xl mx-auto">
 
       <!-- Steps Container -->
@@ -9,7 +9,7 @@
         <div class="w-full lg:w-1/2 space-y-8">
 
              <!-- Section Header -->
-          <h2 class="text-3xl md:text-4xl font-bold text-dark dark:text-black mb-12 lg:mb-16">
+          <h2 class="text-3xl md:text-4xl text-dark dark:text-black mb-12 lg:mb-16">
             How Roamlo Works?
           </h2>
           

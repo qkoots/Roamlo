@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto px-4 py-12 lg:py-20">
+  <div class="container mx-auto px-8 py-12 lg:px-4 lg:py-20 lg:px-52">
     <!-- Header Section -->
     <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between">
       <!-- Text Content -->
-      <div class="text-center lg:text-left w-1/2">
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-dark dark:text-black mb-3 lg:mb-4">
+      <div class="text-center lg:text-left lg:w-1/2">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-dark dark:text-black mb-3 lg:mb-4">
           What Roamers Are Saying
         </h2>
         <p class="text-base sm:text-md lg:text-lg text-body-color dark:text-dark-6 font-semibold mb-2">
@@ -36,7 +36,7 @@
           <div
             v-for="review in reviews"
             :key="review.id"
-            class="w-full md:w-1/3 flex-shrink-0 pr-4"
+            class="w-full md:w-1/3 flex-shrink-0 md:pr-4"
           >
             <div class="bg-[#F2F2F2] dark:bg-dark-2 rounded-xl border border-[#E9ECF8] dark:border-dark-3 p-6 h-[280px]">
               <div class="flex flex-col h-full">

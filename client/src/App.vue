@@ -1,7 +1,7 @@
 <template>
-  <main class="min-h-screen bg-cover bg-top bg-no-repeat" :style="{ backgroundImage: 'url(/src/assets/images/bg_1440.png)' }">
+  <main>
     <NavBar v-if="$route.path !== '/signin' && $route.path !== '/signup'" />
-    <RouterView class="" />
+    <RouterView />
     <Footer v-if="$route.path !== '/signin' && $route.path !== '/signup'" />
   </main>
 </template>
@@ -15,7 +15,7 @@ import Footer from './components/Footer.vue'
 <style>
 /* Optional: Add a subtle overlay to ensure content remains readable */
 .min-h-screen {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.75);
   background-blend-mode: overlay;
 }
 </style>

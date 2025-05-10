@@ -1,50 +1,52 @@
 <template>
-  <div class="container mx-auto px-4 py-12 lg:py-20">
-    <!-- Header Section -->
-    <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between mb-8">
-      <div class="text-center lg:text-center">
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-dark dark:text-black mb-3 lg:mb-4">
-          Frequently Asked Questions
-        </h2>
+  <div class="py-12 lg:py-8">
+    <div class="container mx-auto px-4 py-12 lg:py-20 lg:px-52">
+      <!-- Header Section -->
+      <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between mb-8">
+        <div class="lg:text-center">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl text-dark dark:text-black mb-3 lg:mb-4">
+            Frequently Asked Questions
+          </h2>
+        </div>
       </div>
-    </div>
 
-    <!-- FAQ Items -->
-    <div class="flex flex-col">
-      <div 
-        v-for="(item) in faqItems" 
-        :key="item.id"
-        class="border-b border-[#E9ECF8] dark:border-dark-3"
-      >
-        <button
-          @click="toggleAccordion(item.id)"
-          class="w-full px-4 py-4 flex justify-between items-center hover:text-primary transition-colors duration-300"
-        >
-          <span class="text-left text-base font-medium text-dark dark:text-dark">
-            {{ item.question }}
-          </span>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5 text-body-color transition-transform duration-300"
-            :class="{ 'rotate-45': activeId === item.id }"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M12 4v16m8-8H4"
-            />
-          </svg>
-        </button>
+      <!-- FAQ Items -->
+      <div class="flex flex-col">
         <div 
-          class="overflow-hidden transition-all duration-300"
-          :class="{ 'max-h-0': activeId !== item.id, 'max-h-[500px]': activeId === item.id }"
+          v-for="(item) in faqItems" 
+          :key="item.id"
+          class="border-b border-[#E9ECF8] dark:border-dark-3"
         >
-          <div class="px-4 py-4 bg-gray-50 dark:bg-gray-200 text-body-color dark:text-dark-3 font-light font-sans leading-relaxed">
-            {{ item.answer }}
+          <button
+            @click="toggleAccordion(item.id)"
+            class="w-full px-4 py-4 flex justify-between items-center hover:text-primary transition-colors duration-300"
+          >
+            <span class="text-left text-base font-medium text-dark dark:text-dark">
+              {{ item.question }}
+            </span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 text-body-color transition-transform duration-300"
+              :class="{ 'rotate-45': activeId === item.id }"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 4v16m8-8H4"
+              />
+            </svg>
+          </button>
+          <div 
+            class="overflow-hidden transition-all duration-300"
+            :class="{ 'max-h-0': activeId !== item.id, 'max-h-[500px]': activeId === item.id }"
+          >
+            <div class="px-4 py-4 bg-gray-50 dark:bg-gray-200 text-body-color dark:text-dark-3 font-light font-sans leading-relaxed">
+              {{ item.answer }}
+            </div>
           </div>
         </div>
       </div>

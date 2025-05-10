@@ -1,9 +1,9 @@
 <template>
   <div class="py-12 lg:py-20">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 lg:px-52">
       <!-- Header -->
-      <div class="text-center mb-12">
-        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold text-dark dark:text-black mb-4">
+      <div class="text-center lg:text-left mb-12">
+        <h2 class="text-2xl sm:text-3xl lg:text-4xl text-dark dark:text-black mb-4">
           Why You'll Love Roamlo
         </h2>
       </div>
@@ -11,13 +11,14 @@
       <!-- Services Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
         <!-- Freedom & Flexibility -->
-        <div class="flex flex-col items-center text-center">
-          <div class="bg-white dark:bg-dark-2 rounded-full p-6 mb-6 shadow-sm">
-            <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M19 3H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V5a2 2 0 00-2-2zm-9 14l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+        <div class="flex flex-col">
+          <div class="py-6">
+            <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M7.75 11.9999L10.58 14.8299L16.25 9.16992" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </div>
-          <h3 class="text-xl font-bold text-dark dark:text-black mb-3">
+          <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             FREEDOM & FLEXIBILITY
           </h3>
           <p class="text-body-color dark:text-dark-6 leading-relaxed">
@@ -26,13 +27,18 @@
         </div>
 
         <!-- Global Reach -->
-        <div class="flex flex-col items-center text-center">
-          <div class="bg-white dark:bg-dark-2 rounded-full p-6 mb-6 shadow-sm">
-            <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+        <div class="flex flex-col">
+          <div class="py-6">
+            <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 3C16.95 8.84 16.95 15.16 15 21" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 8.99998C8.84 7.04998 15.16 7.04998 21 8.99998" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
+
           </div>
-          <h3 class="text-xl font-bold text-dark dark:text-black mb-3">
+          <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             GLOBAL REACH
           </h3>
           <p class="text-body-color dark:text-dark-6 leading-relaxed">
@@ -41,13 +47,15 @@
         </div>
 
         <!-- Instant Activation -->
-        <div class="flex flex-col items-center text-center">
-          <div class="bg-white dark:bg-dark-2 rounded-full p-6 mb-6 shadow-sm">
-            <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+        <div class="flex flex-col">
+          <div class="py-6">
+            <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15.7099 15.18L12.6099 13.33C12.0699 13.01 11.6299 12.24 11.6299 11.61V7.51001" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
+
           </div>
-          <h3 class="text-xl font-bold text-dark dark:text-black mb-3">
+          <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             INSTANT ACTIVATION
           </h3>
           <p class="text-body-color dark:text-dark-6 leading-relaxed">
@@ -56,13 +64,15 @@
         </div>
 
         <!-- Reliable Support -->
-        <div class="flex flex-col items-center text-center">
-          <div class="bg-white dark:bg-dark-2 rounded-full p-6 mb-6 shadow-sm">
-            <svg class="w-12 h-12 text-primary" fill="currentColor" viewBox="0 0 24 24">
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-4h2v2h-2zm1.61-9.96c-2.06-.3-3.88.97-4.43 2.79-.18.58.26 1.17.87 1.17h.2c.41 0 .74-.29.88-.67.32-.89 1.27-1.5 2.3-1.28.95.2 1.65 1.13 1.57 2.1-.1 1.34-1.62 1.63-2.45 2.88 0 .01-.01.01-.01.02-.01.02-.02.03-.03.05-.09.15-.18.32-.25.5-.01.03-.03.05-.04.08-.01.02-.01.04-.02.07-.12.34-.2.75-.2 1.25h2c0-.42.11-.77.28-1.07.02-.03.03-.06.05-.09.08-.14.18-.27.28-.39.01-.01.02-.03.03-.04.1-.12.21-.23.33-.34.96-.91 2.26-1.65 1.99-3.56-.24-1.74-1.61-3.21-3.35-3.47z"/>
+        <div class="flex flex-col">
+          <div class="py-6">
+            <svg class="w-12 h-12" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.49561 18.35L10.5956 20.75C10.9956 21.15 11.8956 21.35 12.4956 21.35H16.2956C17.4956 21.35 18.7956 20.45 19.0956 19.25L21.4956 11.95C21.9956 10.55 21.0956 9.34997 19.5956 9.34997H15.5956C14.9956 9.34997 14.4956 8.84997 14.5956 8.14997L15.0956 4.94997C15.2956 4.04997 14.6956 3.04997 13.7956 2.74997C12.9956 2.44997 11.9956 2.84997 11.5956 3.44997L7.49561 9.54997" stroke="#3B3B3B" stroke-miterlimit="10"/>
+              <path d="M2.39563 18.35V8.55002C2.39563 7.15002 2.99563 6.65002 4.39563 6.65002H5.39563C6.79563 6.65002 7.39563 7.15002 7.39563 8.55002V18.35C7.39563 19.75 6.79563 20.25 5.39563 20.25H4.39563C2.99563 20.25 2.39563 19.75 2.39563 18.35Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
+
           </div>
-          <h3 class="text-xl font-bold text-dark dark:text-black mb-3">
+          <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             RELIABLE SUPPORT
           </h3>
           <p class="text-body-color dark:text-dark-6 leading-relaxed">
