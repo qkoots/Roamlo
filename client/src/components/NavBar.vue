@@ -1,11 +1,11 @@
 <template>
-  <header class="relative z-10 dark:bg-dark md:border-b md:border-[#E9ECF8] dark:md:border-dark-3 py-2">
+  <header class="relative z-10 dark:bg-dark md:border-b md:border-[#E9ECF8] dark:md:border-dark-3 py-2 xs:max-md:px-6">
     <div class="container mx-auto">
       <div class="relative -mx-4 flex items-center justify-between">
         <div class="w-60 max-w-full px-4">
           <router-link 
             to="/" 
-            class="block w-full">
+            class="block w-full pl-4">
             <!-- Replace with your logo -->
             <span class="text-xl font-bold">ROAMLO</span>
           </router-link>
@@ -19,13 +19,13 @@
               class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
             >
               <span
-                class="relative my-[6px] block h-[2px] w-[30px] bg-dark dark:bg-white"
+                class="relative my-[6px] block h-[2px] w-[30px] bg-dark dark:bg-black"
               ></span>
               <span
-                class="relative my-[6px] block h-[2px] w-[30px] bg-dark dark:bg-white"
+                class="relative my-[6px] block h-[2px] w-[30px] bg-dark dark:bg-black"
               ></span>
               <span
-                class="relative my-[6px] block h-[2px] w-[30px] bg-dark dark:bg-white"
+                class="relative my-[6px] block h-[2px] w-[30px] bg-dark dark:bg-black"
               ></span>
             </button>
             <nav

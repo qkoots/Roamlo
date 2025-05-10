@@ -12,7 +12,7 @@
           Born to Roam. Built to Connect.
         </h2>
 
-        <p class="text-base md:text-lg lg:text-md text-body-color dark:text-dark-6 mb-8 max-w-2xl lg:max-w-none leading-relaxed">
+        <p class="text-base md:text-lg lg:text-md text-body-color dark:text-dark-6 mb-8 lg:max-w-none leading-relaxed">
           Enjoy seamless eSIM coverage in 190+ countries—no SIM swaps, no hidden fees, 
           just instant connectivity wherever adventure finds you.
         </p>

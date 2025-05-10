@@ -15,7 +15,7 @@ import Footer from './components/Footer.vue'
 <style>
 /* Optional: Add a subtle overlay to ensure content remains readable */
 .min-h-screen {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.5);
   background-blend-mode: overlay;
 }
 </style>
