@@ -1,6 +1,6 @@
 <template>
   <div class="py-12 lg:py-20">
-    <div class="container mx-auto px-4 lg:px-52">
+    <div class="container mx-auto px-4 2xl:px-52">
       <!-- Header Section -->
       <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between">
         <!-- Text Content -->

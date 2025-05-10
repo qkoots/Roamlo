@@ -1,6 +1,6 @@
 <template>
   <div class="py-12 lg:py-20">
-    <div class="container mx-auto px-4 lg:px-52">
+    <div class="container mx-auto px-4 2xl:px-52">
       <!-- Header -->
       <div class="text-center lg:text-left mb-12">
         <h2 class="text-2xl sm:text-3xl lg:text-4xl text-dark dark:text-black mb-4">

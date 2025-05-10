@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-4 py-12 lg:px-52 lg:py-40">
+  <div class="container mx-auto px-4 py-12 lg:py-32 2xl:px-52 2xl:py-40">
     <!-- Hero Content -->
     <div class="flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-12">
       <!-- Left Column: Content -->

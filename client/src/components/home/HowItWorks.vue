@@ -1,6 +1,6 @@
 <template>
-  <section class="container mx-auto px-4 py-12 lg:py-10 lg:px-52">
-    <div class="max-w-6xl mx-auto">
+  <section class="container mx-auto px-4 2xl:px-52">
+    <div class="">
 
       <!-- Steps Container -->
       <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">

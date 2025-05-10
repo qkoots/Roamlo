@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-8 py-12 lg:px-4 lg:py-20 lg:px-52">
+  <div class="container mx-auto px-8 py-12 lg:py-20 2xl:px-52 2xl:py-24">
     <!-- Header Section -->
     <div class="flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:items-center lg:justify-between">
       <!-- Text Content -->
