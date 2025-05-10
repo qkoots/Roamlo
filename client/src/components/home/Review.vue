@@ -26,8 +26,7 @@
     </div>
 
     <!-- Reviews Slider -->
-    <!-- Reviews Slider -->
-    <div class="mt-8 lg:mt-12 relative max-w-[90vw] mx-auto">
+    <div class="mt-8 lg:mt-16 relative max-w-[90vw] mx-auto">
       <div class="overflow-hidden">
         <div 
           class="flex gap-1transition-transform duration-300 ease-in-out"

@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12 lg:py-20">
+  <section class="py-12 lg:py-20">
     <div class="container mx-auto px-4 2xl:px-52">
       <!-- Header -->
       <div class="text-center lg:text-left mb-12">
@@ -11,7 +11,7 @@
       <!-- Services Grid -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
         <!-- Freedom & Flexibility -->
-        <div class="flex flex-col">
+        <div class="flex flex-col items-center lg:items-start">
           <div class="py-6">
             <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 22C17.5 22 22 17.5 22 12C22 6.5 17.5 2 12 2C6.5 2 2 6.5 2 12C2 17.5 6.5 22 12 22Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
@@ -21,13 +21,13 @@
           <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             FREEDOM & FLEXIBILITY
           </h3>
-          <p class="text-body-color dark:text-dark-6 leading-relaxed">
+          <p class="text-center text-body-color dark:text-dark-6 lg:text-left leading-relaxed">
             No long-term contracts, no surprises—just pick your plan, scan the QR code, and go.
           </p>
         </div>
 
         <!-- Global Reach -->
-        <div class="flex flex-col">
+        <div class="flex flex-col items-center lg:items-start">
           <div class="py-6">
             <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
@@ -41,13 +41,13 @@
           <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             GLOBAL REACH
           </h3>
-          <p class="text-body-color dark:text-dark-6 leading-relaxed">
+          <p class="text-center text-body-color dark:text-dark-6 lg:text-left leading-relaxed">
             Data coverage in 190+ countries, powered by top local networks.
           </p>
         </div>
 
         <!-- Instant Activation -->
-        <div class="flex flex-col">
+        <div class="flex flex-col items-center lg:items-start">
           <div class="py-6">
             <svg class="w-12 h-12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M22 12C22 17.52 17.52 22 12 22C6.48 22 2 17.52 2 12C2 6.48 6.48 2 12 2C17.52 2 22 6.48 22 12Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
@@ -58,13 +58,29 @@
           <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             INSTANT ACTIVATION
           </h3>
-          <p class="text-body-color dark:text-dark-6 leading-relaxed">
+          <p class="text-center text-body-color dark:text-dark-6 lg:text-left leading-relaxed">
             Buy online, install in minutes, and you're online before you even unpack.
           </p>
         </div>
 
         <!-- Reliable Support -->
-        <div class="flex flex-col">
+        <div class="flex flex-col items-center lg:items-start">
+          <div class="py-6">
+            <svg class="w-12 h-12" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.49561 18.35L10.5956 20.75C10.9956 21.15 11.8956 21.35 12.4956 21.35H16.2956C17.4956 21.35 18.7956 20.45 19.0956 19.25L21.4956 11.95C21.9956 10.55 21.0956 9.34997 19.5956 9.34997H15.5956C14.9956 9.34997 14.4956 8.84997 14.5956 8.14997L15.0956 4.94997C15.2956 4.04997 14.6956 3.04997 13.7956 2.74997C12.9956 2.44997 11.9956 2.84997 11.5956 3.44997L7.49561 9.54997" stroke="#3B3B3B" stroke-miterlimit="10"/>
+              <path d="M2.39563 18.35V8.55002C2.39563 7.15002 2.99563 6.65002 4.39563 6.65002H5.39563C6.79563 6.65002 7.39563 7.15002 7.39563 8.55002V18.35C7.39563 19.75 6.79563 20.25 5.39563 20.25H4.39563C2.99563 20.25 2.39563 19.75 2.39563 18.35Z" stroke="#3B3B3B" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+
+          </div>
+          <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
+            NO ROAMING COSTS
+          </h3>
+          <p class="text-center text-body-color dark:text-dark-6 lg:text-left leading-relaxed">
+            24/7 customer care, trusted around the globe.
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center lg:items-start">
           <div class="py-6">
             <svg class="w-12 h-12" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7.49561 18.35L10.5956 20.75C10.9956 21.15 11.8956 21.35 12.4956 21.35H16.2956C17.4956 21.35 18.7956 20.45 19.0956 19.25L21.4956 11.95C21.9956 10.55 21.0956 9.34997 19.5956 9.34997H15.5956C14.9956 9.34997 14.4956 8.84997 14.5956 8.14997L15.0956 4.94997C15.2956 4.04997 14.6956 3.04997 13.7956 2.74997C12.9956 2.44997 11.9956 2.84997 11.5956 3.44997L7.49561 9.54997" stroke="#3B3B3B" stroke-miterlimit="10"/>
@@ -75,14 +91,13 @@
           <h3 class="text-lg font-bold text-dark dark:text-black mb-3">
             RELIABLE SUPPORT
           </h3>
-          <p class="text-body-color dark:text-dark-6 leading-relaxed">
+          <p class="text-center text-body-color dark:text-dark-6 lg:text-left leading-relaxed">
             24/7 customer care, trusted around the globe.
           </p>
         </div>
       </div>
     </div>
-
-  </div>
+  </section>
 </template>
 
 <script>
